@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/menu_dashboard_icon"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/menu_categories_icon"/>
+        <item
+            android:id="@+id/nav_all_places"
+            android:title="@string/all_places"
+            android:icon="@drawable/menu_place_icon"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/menu_login_icon"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/menu_profile_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:visible="true"
+                    android:icon="@drawable/menu_logout_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_historical"
+                    android:title="@string/HistoricalPlace"
+                    android:icon="@drawable/historical"/>
+                <item
+                    android:id="@+id/nav_parks"
+                    android:title="@string/Parks"
+                    android:icon="@drawable/park"/>
+                <item
+                    android:id="@+id/nav_hotel"
+                    android:title="@string/Hotels"
+                    android:icon="@drawable/hotel"/>
+                <item
+                    android:id="@+id/nav_library"
+                    android:title="@string/library"
+                    android:icon="@drawable/library"/>
+                <item
+                    android:id="@+id/nav_parking"
+                    android:title="@string/Parking"
+                    android:icon="@drawable/parking"/>
+                <item
+                    android:id="@+id/nav_prayerroom"
+                    android:title="@string/PrayerRoom"
+                    android:icon="@drawable/prayerroom"/>
+                <item
+                    android:id="@+id/nav_supermarkets"
+                    android:title="@string/Supermarkets"
+                    android:icon="@drawable/supermarket"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/menu_share_icon"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/menu_rate_us_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Add Place">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_script"
+                    android:title="Add Place"
+                    android:icon="@drawable/icon_script"/>
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

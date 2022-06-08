@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cityguideapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/map"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/map"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.cityguideapp.ProfileActivity"></activity>
+        <activity android:name="com.example.cityguideapp.script.ScriptDataActivity" />
+        <activity android:name="com.example.cityguideapp.webview.ECommerceActivity" />
+        <activity android:name="com.example.cityguideapp.PlaceDetailActivity" />
+        <activity
+            android:name="com.example.cityguideapp.AllPlacesActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name="com.example.cityguideapp.LoginSignup.SignUpActivity" />
+        <activity android:name="com.example.cityguideapp.LoginSignup.LoginActivity" />
+        <activity
+            android:name="com.example.cityguideapp.LoginSignup.StartUpScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.example.cityguideapp.AllCateogriesActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name="com.example.cityguideapp.UserDashboardActivity" />
+        <activity
+            android:name="com.example.cityguideapp.OnBoardingActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.example.cityguideapp.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
