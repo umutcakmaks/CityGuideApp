@@ -104,3 +104,4 @@ When each category is selected and filtered,results for each category come separ
 In general, all categories in the menu part of the application All Categories section where you can see There is an All Place Categories section where you can see all the places.
 
 For each place in the categories, pictures, general information, price (for required categories), open hours contains information such as And each place is rated from 1-5.
+
